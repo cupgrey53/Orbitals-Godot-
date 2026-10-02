@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://k4p6y08choh7"]
+
+[ext_resource type="PackedScene" uid="uid://c6jlkt7x3wxxf" path="res://Scenes/nucleus.tscn" id="1_wrm1d"]
+[ext_resource type="PackedScene" uid="uid://8s52yyrr4np6" path="res://Scenes/orbitals.tscn" id="2_3dryh"]
+[ext_resource type="PackedScene" uid="uid://cdqvc2wjentdl" path="res://Scenes/electron.tscn" id="3_wowpa"]
+
+[node name="Game" type="Node2D" unique_id=1140590804]
+
+[node name="Nucleus" parent="." unique_id=656498595 instance=ExtResource("1_wrm1d")]
+
+[node name="Orbitals" parent="." unique_id=306471941 instance=ExtResource("2_3dryh")]
+
+[node name="Electron" parent="." unique_id=1098370130 instance=ExtResource("3_wowpa")]

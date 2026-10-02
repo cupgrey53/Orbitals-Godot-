@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://cdqvc2wjentdl"]
+
+[ext_resource type="Script" uid="uid://chxo7mqs5nwjh" path="res://Scripts/electron_player.gd" id="1_pgnwt"]
+[ext_resource type="Texture2D" uid="uid://ves13t7l073f" path="res://Art/icon.svg" id="1_w3tt1"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_4r0rc"]
+radius = 57.21888
+
+[node name="Electron" type="Node2D" unique_id=1098370130]
+
+[node name="Electron player" type="CharacterBody2D" parent="." unique_id=409200767]
+script = ExtResource("1_pgnwt")
+
+[node name="Sprite2D" type="Sprite2D" parent="Electron player" unique_id=1475737359]
+texture = ExtResource("1_w3tt1")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Electron player" unique_id=1154956973]
+shape = SubResource("CircleShape2D_4r0rc")
+
+[node name="Area2D" type="Area2D" parent="Electron player" unique_id=149034639]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Electron player/Area2D" unique_id=1259434213]
+shape = SubResource("CircleShape2D_4r0rc")
+
+[node name="Camera2D" type="Camera2D" parent="Electron player" unique_id=1756277392]
