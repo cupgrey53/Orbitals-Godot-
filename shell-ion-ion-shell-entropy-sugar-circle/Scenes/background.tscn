@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://b1l3h1y05ai83"]
+
+[ext_resource type="Texture2D" uid="uid://ves13t7l073f" path="res://Art/icon.svg" id="1_sn1xx"]
+
+[node name="Background" type="Node2D" unique_id=376549054]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=635597068]
+modulate = Color(0, 0, 0, 1)
+scale = Vector2(200, 200)
+texture = ExtResource("1_sn1xx")

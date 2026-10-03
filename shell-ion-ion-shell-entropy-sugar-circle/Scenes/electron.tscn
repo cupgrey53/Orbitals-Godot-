@@ -12,6 +12,7 @@ radius = 57.21888
 script = ExtResource("1_pgnwt")
 
 [node name="Sprite2D" type="Sprite2D" parent="Electron player" unique_id=1475737359]
+modulate = Color(0, 0, 1, 1)
 texture = ExtResource("1_w3tt1")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Electron player" unique_id=1154956973]
@@ -23,3 +24,15 @@ shape = SubResource("CircleShape2D_4r0rc")
 shape = SubResource("CircleShape2D_4r0rc")
 
 [node name="Camera2D" type="Camera2D" parent="Electron player" unique_id=1756277392]
+
+[node name="Shell Level" type="Label" parent="Electron player" unique_id=1453292285]
+offset_left = -58.0
+offset_top = -109.0
+offset_right = -18.0
+offset_bottom = -86.0
+
+[node name="Charge" type="Label" parent="Electron player" unique_id=1784413758]
+offset_left = -176.0
+offset_top = -111.0
+offset_right = -136.0
+offset_bottom = -88.0
